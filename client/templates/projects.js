@@ -117,8 +117,8 @@ Template.projects.helpers({
       images4:[
         {url:"http://m-soft.qiniudn.com/gl3.jpg"},
       ],
-      pc:"http://meiroo.sinaapp.com/",
-      mobile:"http://ozweb.sinaapp.com/",
+      pc:"",
+      mobile:"",
       code:"",
 
     }
