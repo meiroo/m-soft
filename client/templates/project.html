@@ -1,0 +1,44 @@
+<template name="project">
+<div class="jumbotron">
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-6">
+
+            <p>
+            <h2>{{title}}</h2>
+            <em><h4>{{description}}</h4></em>
+            <ul>
+            {{#each features}}
+            <li>{{feature}}</li>
+            {{/each}}
+            </ul>
+            </p>
+
+            <a href="{{pc}}" class="btn btn-sup btn-material-pink btn-raised {{#if pc}}{{else}}disabled{{/if}}" >
+                <i style="font-size: 18pt;" class="mdi-file-cloud-download"></i>
+                <span>PC</span>
+            </a>
+
+            <a href="{{mobile}}" class="btn btn-sup btn-material-deeppurple {{#if mobile}}{{else}}disabled{{/if}}">
+                <i style="font-size: 18pt;" class="mdi-notification-adb"></i>
+                <span>MOBILE</span>
+            </a>
+          
+            <a href="{{code}}" class="btn btn-sup btn-material-brown {{#if code}}{{else}}disabled{{/if}}">
+                <i style="font-size: 18pt;" class="mdi-action-grade"></i>
+                <span>CODE</span>
+            </a>
+   
+            
+
+    </div>
+    {{#each images}}
+            <div class="col-lg-2 col-md-2 col-sm-2">
+    	<div class="sample shadow-z-5">
+    		<img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
+    	</div>
+    </div>
+    {{/each}}
+            
+ </div>
+ </div>
+</template>
