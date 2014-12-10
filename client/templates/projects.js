@@ -4,7 +4,7 @@ Template.projects.helpers({
   projects:function(){
     var projects = [
     {
-      title:"ImageServe : nodejs-image-management",
+      title:"ImageServe : nodejs-site-image-management",
       description:"图片基础展示管理,Policy图片处理。"
       , 
       features:[
@@ -33,7 +33,7 @@ Template.projects.helpers({
         {feature:"全站缓存：可以断网环境正常使用除导出外的全部功能 网络连接后会和服务器同步"},
         {feature:"功能基于客户端JS开发完成 只有导出功能使用服务端开发"},
       ],
-      images:[
+      images3:[
         {url:"http://m-soft.qiniudn.com/notes1.jpg"},
         {url:"http://m-soft.qiniudn.com/notes2.jpg"},
       ],
@@ -43,7 +43,7 @@ Template.projects.helpers({
 
     },
     {
-      title:"3D穴位 : android xuewei 3d show",
+      title:"3D穴位 : android/win  c++ xuewei 3d show",
       description:"增加了任脉督脉的穴位。目前共支持14个经络共361个穴位的显示和说明。"
       , 
       features:[
@@ -83,6 +83,39 @@ Template.projects.helpers({
         {url:"http://m-soft.qiniudn.com/pic6.jpg"},
         {url:"http://m-soft.qiniudn.com/pic7.jpg"},
         {url:"http://m-soft.qiniudn.com/pic8.jpg"},
+      ],
+      pc:"http://meiroo.sinaapp.com/",
+      mobile:"http://ozweb.sinaapp.com/",
+      code:"",
+
+    },
+
+    {
+      title:"MGL-Engine : c++  opengl/dx11 android/win simple render",
+      description:"OpenGL学习中逐渐完善的简单渲染引擎。跨android和win平台。"
+      , 
+      features:[
+        {feature:"基础模块：Point,Rect,RawImage,Plane...等基础类型"},
+        {feature:"渲染模块：Render接口采用　ES1.1 / ES2.0 / ES3.0 / DX11 等四种方式实现"},
+        {feature:"动画模块：实现简单的属性动画。线性插值。以及动画播放控制流程"},
+        {feature:"窗口部分：基于GLUT　基于WindowsAPI　基于Android GLSurfaceView等三种窗口实现"},
+        {feature:"模型加载：3ds简单解析模块，3ds模型动画解析模块，ply解析，blender导出动画解析模块"},
+        {feature:"图片加载 : 基于stb解析bmp,jpg模块, 基于libpng解析png图片,基于freetype解析ttf字体文件模块"},
+        {feature:"图元管理：添加管理多个图元，统一绘制，用于构建布线图，大批图元绘制效率优化。"},
+        {feature:"模型buffer:　基于属性的模型buffer管理。便于统一创建.  VBO,PBO,FBO,UBO等操作封装。"},
+        {feature:"场景：多个测试场景。文字／图片／多个图元／地形创建／3ds模型动画/ OpenCL绘制/blender场景　等等。"},
+         {feature:"Android：Android下文字生成纹理，GLSurfaceView Render管理等。"},
+      ],
+      images:[
+        {url:"http://m-soft.qiniudn.com/gl4.jpg"},
+        {url:"http://m-soft.qiniudn.com/gl5.jpg"},
+      ],
+      images3:[
+        {url:"http://m-soft.qiniudn.com/gl1.jpg"},
+        {url:"http://m-soft.qiniudn.com/gl2.jpg"},
+      ],
+      images4:[
+        {url:"http://m-soft.qiniudn.com/gl3.jpg"},
       ],
       pc:"http://meiroo.sinaapp.com/",
       mobile:"http://ozweb.sinaapp.com/",
