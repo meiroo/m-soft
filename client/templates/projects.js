@@ -61,6 +61,33 @@ Template.projects.helpers({
       mobile:"http://m.163.com/android/software/329eu0.html",
       code:"",
 
+    },
+
+    {
+      title:"Web3D : webgl,canvas,three.js,css3",
+      description:"web3d demos"
+      , 
+      features:[
+        {feature:"基于three.js webgl场景,canvas场景"},
+        {feature:"webgl数据并行计算和结果3D展示"},
+        {feature:"blender to json => HTML5平台解析并展示"},
+        {feature:"canvas视频拼图,全景,photosnyth"},
+        {feature:"css3 html 3d animation"},
+      ],
+      images:[
+        {url:"http://m-soft.qiniudn.com/pic1.jpg"},
+        {url:"http://m-soft.qiniudn.com/pic2.jpg"},
+        {url:"http://m-soft.qiniudn.com/pic3.jpg"},
+      ],
+      images2:[
+        {url:"http://m-soft.qiniudn.com/pic6.jpg"},
+        {url:"http://m-soft.qiniudn.com/pic7.jpg"},
+        {url:"http://m-soft.qiniudn.com/pic8.jpg"},
+      ],
+      pc:"http://meiroo.sinaapp.com/",
+      mobile:"http://ozweb.sinaapp.com/",
+      code:"",
+
     }
 
     ];
