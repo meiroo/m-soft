@@ -1,4 +1,20 @@
 <template name="project">
+
+<div id="image" class="modal fade" tabindex="-1">
+  <div class="modal-dialog" style="height:500px;">
+    <div class="modal-content">
+      <div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="col-xs-12">
+          <img  src=""  class="img-rounded img-responsive"  alt="Responsive image">
+      </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="jumbotron" style="margin-top:50px;">
 <div class="row">
 <h2>{{title}}</h2>
@@ -14,17 +30,17 @@
             </ul>
             </p>
 
-            <a href="{{pc}}" class="btn btn-sup btn-material-pink btn-raised {{#if pc}}{{else}}disabled{{/if}}" >
+            <a href="{{pc}}" target="_black" class="btn btn-sup btn-material-pink btn-raised {{#if pc}}{{else}}disabled{{/if}}" >
                 <i style="font-size: 18pt;" class="mdi-file-cloud-download"></i>
                 <span>PC</span>
             </a>
 
-            <a href="{{mobile}}" class="btn btn-sup btn-material-deeppurple {{#if mobile}}{{else}}disabled{{/if}}">
+            <a href="{{mobile}}" target="_black" class="btn btn-sup btn-material-deeppurple {{#if mobile}}{{else}}disabled{{/if}}">
                 <i style="font-size: 18pt;" class="mdi-notification-adb"></i>
                 <span>MOBILE</span>
             </a>
           
-            <a href="{{code}}" class="btn btn-sup btn-material-brown {{#if code}}{{else}}disabled{{/if}}">
+            <a href="{{code}}" target="_black" class="btn btn-sup btn-material-brown {{#if code}}{{else}}disabled{{/if}}">
                 <i style="font-size: 18pt;" class="mdi-action-grade"></i>
                 <span>CODE</span>
             </a>
@@ -37,7 +53,9 @@
     
     <div class="col-lg-4 col-md-4 col-sm-4">
     	<div class="sample shadow-z-5">
-    		<img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
+        <a href="#" class="thumbnail">
+    	<img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
+            </a>
     	</div>
     </div>
     
@@ -49,7 +67,9 @@
     
     <div class="col-lg-4 col-md-4 col-sm-4">
     	<div class="sample shadow-z-5">
+                    <a href="#" class="thumbnail">
     		<img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
+                    </a>
     	</div>
     </div>
     
@@ -61,7 +81,9 @@
     
     <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="sample shadow-z-5">
+        <a href="#" class="thumbnail">
             <img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
+        </a>
         </div>
     </div>
     
@@ -73,7 +95,9 @@
     
     <div class="col-lg-6 col-md-6 col-sm-6">
         <div class="sample shadow-z-5">
+        <a href="#" class="thumbnail">
             <img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
+            </a>
         </div>
     </div>
     

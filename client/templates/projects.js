@@ -130,6 +130,18 @@ Template.projects.helpers({
 });
 
 
+Template.project.events({
+
+  "click .thumbnail":function(event,template){
+
+     event.preventDefault();
+     var imgsrc = event.target.src;
+     $('#image').modal('show');
+     $('#image').find('img').attr("src",imgsrc);
+    
+},
+
+});
 
 Template.projects.rendered = function () {
     
