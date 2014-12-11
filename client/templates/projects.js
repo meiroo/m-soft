@@ -38,7 +38,7 @@ Template.projects.helpers({
         {url:"http://m-soft.qiniudn.com/notes2.jpg"},
       ],
       pc:"http://m-notes.meteor.com",
-      mobile:"",
+      mobile:"http://m-notes.qiniudn.com/notes-debug.apk",
       code:"",
 
     },
