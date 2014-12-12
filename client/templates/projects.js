@@ -18,8 +18,8 @@ Template.projects.helpers({
         {url:"http://m-soft.qiniudn.com/imageserve2.jpg"},
         {url:"http://m-soft.qiniudn.com/imageserve3.jpg"},
       ],
-      pc:"http://meiroo.duapp.com",
-      mobile:"",
+      win:"http://meiroo.duapp.com",
+      android:"http://m-soft.qiniudn.com/duapp.apk",
       code:"",
 
     },
@@ -37,8 +37,9 @@ Template.projects.helpers({
         {url:"http://m-soft.qiniudn.com/notes1.jpg"},
         {url:"http://m-soft.qiniudn.com/notes2.jpg"},
       ],
-      pc:"http://m-notes.meteor.com",
-      mobile:"http://m-notes.qiniudn.com/notes-debug.apk",
+      win:"http://m-notes.meteor.com",
+      android:"http://m-notes.qiniudn.com/notes.apk",
+      wp8:"http://m-notes.qiniudn.com/notes.xap",
       code:"",
 
     },
@@ -57,8 +58,8 @@ Template.projects.helpers({
         {url:"http://m-soft.qiniudn.com/xueweimobile2.jpg"},
         {url:"http://m-soft.qiniudn.com/xueweimobile3.jpg"},
       ],
-      pc:"http://m-soft.qiniudn.com/3D穴位ver2-bin.zip",
-      mobile:"http://m.163.com/android/software/329eu0.html",
+      win:"http://m-soft.qiniudn.com/3D穴位ver2-bin.zip",
+      android:"http://m.163.com/android/software/329eu0.html",
       code:"",
 
     },
@@ -84,8 +85,8 @@ Template.projects.helpers({
         {url:"http://m-soft.qiniudn.com/pic7.jpg"},
         {url:"http://m-soft.qiniudn.com/pic8.jpg"},
       ],
-      pc:"http://meiroo.sinaapp.com/",
-      mobile:"http://ozweb.sinaapp.com/",
+      win:"http://meiroo.sinaapp.com/",
+      win2:"http://ozweb.sinaapp.com/",
       code:"",
 
     },
@@ -117,8 +118,8 @@ Template.projects.helpers({
       images4:[
         {url:"http://m-soft.qiniudn.com/gl3.jpg"},
       ],
-      pc:"",
-      mobile:"",
+      win:"",
+      android:"",
       code:"",
 
     }

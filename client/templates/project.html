@@ -30,17 +30,27 @@
             </ul>
             </p>
 
-            <a href="{{pc}}" target="_black" class="btn btn-sup btn-material-pink btn-raised {{#if pc}}{{else}}disabled{{/if}}" >
-                <i style="font-size: 18pt;" class="mdi-file-cloud-download"></i>
-                <span>PC</span>
+            <a href="{{win}}" target="_black" class="btn btn-sup btn-material-pink btn-raised {{#if win}}{{else}}hidden{{/if}}" >
+                <i style="font-size: 18pt;" class="mdi-hardware-desktop-windows"></i>
+                <span>WIN</span>
             </a>
 
-            <a href="{{mobile}}" target="_black" class="btn btn-sup btn-material-deeppurple {{#if mobile}}{{else}}disabled{{/if}}">
-                <i style="font-size: 18pt;" class="mdi-notification-adb"></i>
-                <span>MOBILE</span>
+            <a href="{{win2}}" target="_black" class="btn btn-sup btn-material-pink btn-raised {{#if win2}}{{else}}hidden{{/if}}" >
+                <i style="font-size: 18pt;" class="mdi-hardware-desktop-windows"></i>
+                <span>WIN2</span>
+            </a>
+
+            <a href="{{android}}" target="_black" class="btn btn-sup btn-material-deeppurple {{#if android}}{{else}}hidden{{/if}}">
+                <i style="font-size: 18pt;" class="mdi-action-android"></i>
+                <span>Android</span>
+            </a>
+
+            <a href="{{wp8}}" target="_black" class="btn btn-sup btn-material-deeppurple {{#if wp8}}{{else}}hidden{{/if}}">
+                <i style="font-size: 18pt;" class="mdi-device-now-widgets"></i>
+                <span>Wp8</span>
             </a>
           
-            <a href="{{code}}" target="_black" class="btn btn-sup btn-material-brown {{#if code}}{{else}}disabled{{/if}}">
+            <a href="{{code}}" target="_black" class="btn btn-sup btn-material-brown {{#if code}}{{else}}hidden{{/if}}">
                 <i style="font-size: 18pt;" class="mdi-action-grade"></i>
                 <span>CODE</span>
             </a>
