@@ -18,7 +18,7 @@ Template.projects.helpers({
         {url:"http://m-soft.qiniudn.com/imageserve2.jpg"},
         {url:"http://m-soft.qiniudn.com/imageserve3.jpg"},
       ],
-      win:"http://meiroo.duapp.com",
+      site:"http://meiroo.duapp.com",
       android:"http://m-soft.qiniudn.com/duapp.apk",
       code:"",
 
@@ -37,7 +37,7 @@ Template.projects.helpers({
         {url:"http://m-soft.qiniudn.com/notes1.jpg"},
         {url:"http://m-soft.qiniudn.com/notes2.jpg"},
       ],
-      win:"http://m-notes.meteor.com",
+      site:"http://m-notes.meteor.com",
       android:"http://m-notes.qiniudn.com/notes.apk",
       wp8:"http://m-notes.qiniudn.com/notes.xap",
       code:"",
@@ -85,8 +85,8 @@ Template.projects.helpers({
         {url:"http://m-soft.qiniudn.com/pic7.jpg"},
         {url:"http://m-soft.qiniudn.com/pic8.jpg"},
       ],
-      win:"http://meiroo.sinaapp.com/",
-      win2:"http://ozweb.sinaapp.com/",
+      site:"http://meiroo.sinaapp.com/",
+      site2:"http://ozweb.sinaapp.com/",
       code:"",
 
     },
@@ -118,7 +118,7 @@ Template.projects.helpers({
       images4:[
         {url:"http://m-soft.qiniudn.com/gl3.jpg"},
       ],
-      win:"",
+      site:"",
       android:"",
       code:"",
 
