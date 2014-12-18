@@ -63,7 +63,7 @@ Template.projects.helpers({
       ],
       win:"http://m-soft.qiniudn.com/3D穴位ver2-bin.zip",
       android:"http://m.163.com/android/software/329eu0.html",
-      code:"",
+      code:"https://github.com/meiroo/m-glxuewei.git",
 
     },
 
