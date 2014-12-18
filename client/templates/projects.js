@@ -4,6 +4,7 @@ Template.projects.helpers({
   projects:function(){
     var projects = [
     {
+      id:"imageserve",
       title:"ImageServe : nodejs-site-image-management",
       description:"图片基础展示管理,Policy图片处理。"
       , 
@@ -24,6 +25,7 @@ Template.projects.helpers({
 
     },
     {
+      id:"notes",
       title:"Notes : meteor knowledge managment",
       description:"基于Meteor全栈开发"
       , 
@@ -44,6 +46,7 @@ Template.projects.helpers({
 
     },
     {
+      id:"3dxuewei",
       title:"3D穴位 : android/win  c++ xuewei 3d show",
       description:"增加了任脉督脉的穴位。目前共支持14个经络共361个穴位的显示和说明。"
       , 
@@ -65,6 +68,7 @@ Template.projects.helpers({
     },
 
     {
+      id:"web3d",
       title:"Web3D : webgl,canvas,three.js,css3",
       description:"web3d demos"
       , 
@@ -92,7 +96,8 @@ Template.projects.helpers({
     },
 
     {
-      title:"MGL-Engine : c++  opengl/dx11 android/win simple render",
+      id:"mgl",
+      title:"M-GLEngine : c++  opengl/dx11 android/win simple render",
       description:"OpenGL学习中逐渐完善的简单渲染引擎。跨android和win平台。"
       , 
       features:[
