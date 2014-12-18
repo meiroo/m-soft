@@ -42,7 +42,7 @@ Template.projects.helpers({
       site:"http://m-notes.meteor.com",
       android:"http://m-notes.qiniudn.com/notes.apk",
       wp8:"http://m-notes.qiniudn.com/notes.xap",
-      code:"",
+      code:"https://github.com/meiroo/m-notes",
 
     },
     {
