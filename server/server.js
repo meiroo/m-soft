@@ -1,5 +1,9 @@
+Meteor.startup(function () {
+    // code to run on server at startup
+});
 
-
+SSR.compileTemplate('index', Assets.getText('index.html'));
+SSR.compileTemplate('projects', Assets.getText('templates/projects.html'));
 Template.projects.helpers({
   projects:function(){
     var projects = [
@@ -134,27 +138,3 @@ Template.projects.helpers({
     return projects;
   }
 });
-
-
-Template.project.events({
-
-  "click .thumbnail":function(event,template){
-
-     event.preventDefault();
-     var imgsrc = event.target.src;
-     $('#image').modal('show');
-     $('#image').find('img').attr("src",imgsrc);
-    
-},
-
-});
-
-Template.projects.rendered = function () {
-    
-    $.material.init();
-    
-    
-};
-
-Template.projects.created = function () {
-};

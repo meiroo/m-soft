@@ -1,9 +1,23 @@
-<template name="project">
+<div id="image" class="modal fade" tabindex="-1">
+  <div class="modal-dialog" style="height:500px;">
+    <div class="modal-content">
+      <div class="modal-body">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <div class="col-xs-12">
+          <img  src=""  class="img-rounded img-responsive"  alt="Responsive image">
+      </div>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
 
-<div id="{{id}}" class="jumbotron" style="margin-top:50px;">
+{{#each projects}}
+    <div id="{{id}}" class="jumbotron" style="margin-top:50px;">
 <div class="row">
 <h2> <a href="#{{id}}"> {{title}} </a> </h2>
-	<div class="col-lg-6 col-md-6 col-sm-6">
+  <div class="col-lg-6 col-md-6 col-sm-6">
 
             <p>
             
@@ -52,11 +66,11 @@
     {{#each images}}
     
     <div class="col-lg-4 col-md-4 col-sm-4">
-    	<div class="sample shadow-z-5">
+      <div class="sample shadow-z-5">
         <a href="#" class="thumbnail">
-    	<img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
+      <img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
             </a>
-    	</div>
+      </div>
     </div>
     
     {{/each}}
@@ -66,11 +80,11 @@
     {{#each images2}}
     
     <div class="col-lg-4 col-md-4 col-sm-4">
-    	<div class="sample shadow-z-5">
+      <div class="sample shadow-z-5">
                     <a href="#" class="thumbnail">
-    		<img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
+        <img src="{{url}}" class="img-rounded img-responsive"  alt="Responsive image">
                     </a>
-    	</div>
+      </div>
     </div>
     
     {{/each}}
@@ -106,4 +120,4 @@
             
  </div>
  </div>
-</template>
+{{/each}}
