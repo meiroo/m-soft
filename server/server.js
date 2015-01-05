@@ -3,7 +3,11 @@ Meteor.startup(function () {
 });
 
 SSR.compileTemplate('index', Assets.getText('index.html'));
+SSR.compileTemplate('header', Assets.getText('templates/header.html'));
+SSR.compileTemplate('project', Assets.getText('templates/project.html'));
 SSR.compileTemplate('projects', Assets.getText('templates/projects.html'));
+
+
 Template.projects.helpers({
   projects:function(){
     var projects = [
@@ -138,3 +142,4 @@ Template.projects.helpers({
     return projects;
   }
 });
+

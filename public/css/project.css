@@ -13,3 +13,7 @@ body .modal {
 .modal-body  {
     max-height: 700px;
 }
+
+.jumbotron li{
+	font-size: 21px;
+}
