@@ -1,12 +1,12 @@
 <html>
 <head>
-  <title>Soft</title>
+  <title>Personal Projects by Meiroo</title>
   <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/material.min.css" rel="stylesheet">
-  <link href="/css/ripples.min.css" rel="stylesheet">
-  <link href="/css/material-wfont.min.css" rel="stylesheet">
-  <link href="/css/project.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/material.min.css" rel="stylesheet">
+  <link href="css/ripples.min.css" rel="stylesheet">
+  <link href="css/material-wfont.min.css" rel="stylesheet">
+  <link href="css/project.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,6 +26,17 @@
 <script>
     $(document).ready(function() {
         $.material.init();
+        $.material.ripples();
+
+        $(".thumbnail").on("click",function(event){
+           event.preventDefault();
+           var imgsrc = event.target.src;
+           $('#image').modal('show');
+           $('#image').find('img').attr("src",imgsrc);
+        });
+
+    
+    
     });
 </script>
 </body>
